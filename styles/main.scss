@@ -1,0 +1,75 @@
+@import "../node_modules/normalize.scss/normalize.scss";
+
+#h1 {
+	height: 2em;
+	background: #4C7196;
+	width: 100%;
+	margin: 0em;
+}
+
+#plus {
+	padding-left: 2em;
+	height: center;
+	padding-top: 0.2em;
+}
+
+#url {
+	width: 100%;
+	margin-top: 2em;
+	font-weight: lighter;
+}
+
+#caption {
+	width: 100%;
+	margin-top: 0.5em;
+	height: 2em;
+	font-weight: lighter;
+	}
+
+#cancel {
+	float: right;
+	margin-top: 0.5em;
+	background: #B6B6B6;
+	color: white;
+	font-size: 1em;
+	height: 2em;
+	font-weight: lighter;
+	border: 0.5em solid #B6B6B6;
+	margin-right: 2em;
+}
+
+#image {
+	margin-top: 0.5em;
+	display: inline;
+	float: right;
+	margin-top: 0.5em;
+	background: #17AA56;
+	color: white;
+	height: 2em;
+	border: none;
+	font-weight: lighter;
+}
+
+#ad {
+	padding-left: 2em;
+	padding-right: 2em;
+	height: 15em;
+	background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQxYc6Uf_eXG_DFHuOvCo69D4c581WYqNg9BrCJPauAW_ERSbMsBw");
+	font-size: 1em;
+	text-align: center;
+	margin-top: -1.35em;
+}
+
+#section {
+	height: 100%;
+	background: #EDEEEF;
+	margin-top: 1em;
+	text-align: center;
+	padding: 1em;
+	margin-top: 0em;
+}
+
+#text {
+	padding-top: 1em;
+	font-family: Dancing Script;
+}
