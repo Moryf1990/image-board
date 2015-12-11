@@ -27,7 +27,6 @@ $(document).ready(function () {
 
 	viewImage.click(function (e) {
 		e.preventDefault();
-		// $('cancel').prop('disabled', true);
 
 		var newUrl = viewUrl.val();
 		var newCaption = viewCaption.val();
@@ -39,31 +38,6 @@ $(document).ready(function () {
 			viewUrl.val('');
 			viewCaption.val('');
 		}, 'json');
-
-		/*$.post(
-  	'http://tiyfe.herokuapp.com/collections/morrisf',
-  	{message: newCaption},
-  	function(result) {
-  		console.log('input saved', result);
-  		console.log('result'._id);
-  		viewSection.append('<div>'+result.message+'<div>');
-  	},
-  	'json'
-  		);*/
-
-		// $newUrl.click(function() {
-		// 	viewSection.html(' ');
-		// 	viewSection.show();
-		// 	$.get(
-		// 		url,
-		// 		function(response){
-		// 			response.forEach(function(response, index) {
-		//                   	viewSection.append('<div>'+response.title+'</div><div>'+response.video+'</div><div>'+response.description+'</div>');
-		// 			});
-		// 			// 'json'
-		// 		}
-		// 	);
-		// });
 	});
 });
 
